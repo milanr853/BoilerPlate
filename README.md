@@ -40,6 +40,8 @@
 
 9. pwd - print working directory path
 
+10. code . + enter - to open vs code
+
 ## Package Installation
 
 *npm i @reduxjs/toolkit react-redux axios react-router-dom styled-components sass concurrently react-error-boundary moment lodash formik*

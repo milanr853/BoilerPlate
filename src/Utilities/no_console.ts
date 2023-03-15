@@ -4,6 +4,7 @@ export default function no_console() {
     ///////////Hide Console Logs///////////
     if (viteEnv === 'prod') {
         console.log = function () { };
+        console.table = function () { };
     }
     ///////////Hide Console Logs///////////
 }

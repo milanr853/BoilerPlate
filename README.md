@@ -14,10 +14,26 @@
 
 7. use console.table() for objects to show in tabular form
 
-for vite setup - npx create vite@latest .
+*for vite setup - npx create vite@latest .*
 
-for CRA setup - npx create-react-app app
+*for CRA setup - npx create-react-app app*
 
 ## CLI COMMANDS
 
-## GIT COMMANDS
+1. cd dir_name - prodeed to directory
+
+2. cd .. - comeback to previous directory
+
+3. mkdir dir_name - create directory
+
+4. rmdir dir_name - delete empty directory
+
+5. rm -rf - delete any directory
+
+6. touch file_name - create file
+
+7. rm file_name - delete file
+
+8. ls - list all contents in the directory
+
+9. pwd - print working directory path

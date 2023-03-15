@@ -14,11 +14,13 @@
 
 7. use console.table() for objects to show in tabular form
 
+## Project Setup Commands
+
 *for vite setup - npx create vite@latest .*
 
 *for CRA setup - npx create-react-app app*
 
-## CLI COMMANDS
+## Cli Commands
 
 1. cd dir_name - prodeed to directory
 

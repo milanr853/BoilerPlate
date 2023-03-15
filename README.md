@@ -39,3 +39,7 @@
 8. ls - list all contents in the directory
 
 9. pwd - print working directory path
+
+## Package Installation
+
+*npm i @reduxjs/toolkit react-redux axios react-router-dom styled-components sass concurrently react-error-boundary moment lodash formik*

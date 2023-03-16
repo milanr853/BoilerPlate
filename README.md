@@ -68,27 +68,41 @@
 ## Typescript
 
 ```Javascript
-import React, { ReactElement } from 'react'
+import React, { ReactNode, useRef } from 'react'
 
-type DemoProps = { name: string, age: number, isMale: boolean, func: () => void, hobbies?: [], children: React.FC }
+type DemoProps = {
+    name: string, age: number, isMale: boolean,
+    func: () => void, //function that returns nothing
+    funcRet: () => string, //function which returns something 
+    hobbies?: [], //optional prop
+    children: ReactNode, //component as prop
+    handleClick: (event: React.MouseEvent) => void //onclick event || mouse event
+    handleChange: (event: React.ChangeEvent) => void //onchange event || keyboard event
+}
 
 const Demo = (props: DemoProps) => {
     const [state, setState] = React.useState<number>(0)
     const [arr1, setArr1] = React.useState<string[]>(['apple', 'ball'])
-    const [arr2, setArr2] = React.useState<Array<string>>(['cat', 'doll'])
+    const [arr2, setArr2] = React.useState<Array<string>>(['cat', 'doll']) //array of single type element || alias
     const [myObj, setMyObj] = React.useState<Object>({ num: 1, val: 'you' })
 
-    const object1: Object = {
+    const someRef = useRef<HTMLElement | null>(null) //type of ref
+
+    const object1: { Name: string, Age: number, isMale: boolean, } //object prop
+        = {
         Name: props.name,
         Age: props.age,
         isMale: props.isMale,
     }
 
-    const Arr: number[] | null = true ? [1, 2, 3, 4, 5] : null
+    const Arr: number[] | null = true ? [1, 2, 3, 4, 5] : null //multiple possibility of type || union
+
+    const Value: any = [1, 'apple', { key: "data" }] //any - when we dont know what the exact type is
 
     return (
         <>
-            <h1>Demo</h1>
+            <input type="text" onChange={props.handleChange} />
+            <button onClick={props.handleClick}>Click</button>
         </>
     )
 }

@@ -64,7 +64,7 @@
 
 ## Typescript
 
-`
+```
 import React, { ReactElement } from 'react'
 
 type DemoProps = { name: string, age: number, isMale: boolean, func: () => void, hobbies?: [], children: React.FC }
@@ -91,4 +91,4 @@ const Demo = (props: DemoProps) => {
 }
 
 export default Demo
-`
+```

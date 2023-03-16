@@ -14,13 +14,15 @@
 
 7. use console.table() for objects to show in tabular form
 
-8. component optimization techniques like: I. passing child component as props in parent component; II. Moving the state down (separating component along with their states in chunks rather than one single big component)
+8. component optimization techniques like: i. passing child component as props in parent component; ii. Moving the state down (separating component along with their states in chunks rather than one single big component)
+
+9. css module, styled components for styling
 
 ## Important notes
 
 1. First component render > after that side effect run && some further state changes being made > component re-renders > useeffect compares the value in dependency array, if they are different, side effect runs again.
 
-2. Causes od re-render: i. if state of the component is updated changes; ii. if parent component re-renders (child also re-renders); iii. if the reference of the prop changes can cause the child component to rerender
+2. Causes of re-render: i. if state of the component is updated changes; ii. if parent component re-renders (child also re-renders); iii. if the reference of the prop changes can cause the child component to rerender
 
 3. According to react a prop is immutable. Hence updating the value of prop donot cause re-render.
 

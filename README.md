@@ -20,7 +20,7 @@
 
 1. First component render > after that side effect run && some further state changes being made > component re-renders > useeffect compares the value in dependency array, if they are different, side effect runs again.
 
-2. Causes od re-render: i. if state of the component is updated changes; ii. if parent component re-renders (child also re-renders); iii. if the reference of the prop changes can cause the child component to rerender
+2. Causes of re-render: i. if state of the component is updated changes; ii. if parent component re-renders (child also re-renders); iii. if the reference of the prop changes can cause the child component to rerender
 
 3. According to react a prop is immutable. Hence updating the value of prop donot cause re-render.
 

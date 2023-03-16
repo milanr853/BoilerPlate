@@ -34,6 +34,7 @@
 
 ## Cli Commands
 
+```
 1. cd dir_name - prodeed to directory
 
 2. cd .. - comeback to previous directory
@@ -53,7 +54,39 @@
 9. pwd - print working directory path
 
 10. code . + enter - to open vs code
+```
 
 ## Package Installation
 
 *npm i @reduxjs/toolkit react-redux axios react-router-dom styled-components sass concurrently react-error-boundary moment lodash formik*
+
+## Typescript
+
+`
+import React, { ReactElement } from 'react'
+
+type DemoProps = { name: string, age: number, isMale: boolean, func: () => void, hobbies?: [], children: React.FC }
+
+const Demo = (props: DemoProps) => {
+    const [state, setState] = React.useState<number>(0)
+    const [arr1, setArr1] = React.useState<string[]>(['apple', 'ball'])
+    const [arr2, setArr2] = React.useState<Array<string>>(['cat', 'doll'])
+    const [myObj, setMyObj] = React.useState<Object>({ num: 1, val: 'you' })
+
+    const object1: Object = {
+        Name: props.name,
+        Age: props.age,
+        isMale: props.isMale,
+    }
+
+    const Arr: number[] | null = true ? [1, 2, 3, 4, 5] : null
+
+    return (
+        <>
+            <h1>Demo</h1>
+        </>
+    )
+}
+
+export default Demo
+`

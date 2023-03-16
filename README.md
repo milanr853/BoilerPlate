@@ -16,6 +16,8 @@
 
 8. component optimization techniques like: i. passing child component as props in parent component; ii. Moving the state down (separating component along with their states in chunks rather than one single big component)
 
+9. css module, styled components for styling
+
 ## Important notes
 
 1. First component render > after that side effect run && some further state changes being made > component re-renders > useeffect compares the value in dependency array, if they are different, side effect runs again.

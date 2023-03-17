@@ -14,7 +14,9 @@
 
 7. use console.table() for objects to show in tabular form
 
-8. component optimization techniques like: i. passing child component as props in parent component; ii. Moving the state down (separating component along with their states in chunks rather than one single big component)
+8. component optimization techniques like: 
+       * passing child component as props in parent component
+       * Moving the state down (separating component along with their states in chunks rather than one single big component)
 
 9. css module, styled components for styling
 
@@ -166,5 +168,4 @@ export default Demo
 
 
 
-`git ignore .env`
 `while initial npm install, first delete package-lock.json file then npm install`

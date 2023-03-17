@@ -31,6 +31,8 @@
 
 4. DOM is directly manipulated using useRef. Hence no state is updated > so, no re-render of component > thus, the side-effects are not executed while ref is provided as dependency.
 
+5. React don't render Boolean, null, undefined.
+
 ## Project Setup Commands
 
 *for vite setup - npx create vite@latest .*

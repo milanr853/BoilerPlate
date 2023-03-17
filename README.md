@@ -123,6 +123,48 @@ export default Demo
    - npm script
 
 2. Git:
-    + [Command](https://www.youtube.com/watch?v=USjZcfj8yxE)
+    + [Commands](https://www.youtube.com/watch?v=USjZcfj8yxE)
     + [Github_Workflow](https://www.youtube.com/watch?v=nhNq2kIvi9s)
     + [Git_Conventional_Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+
+3. React:
+    * Components:
+        - Fragment - wraps a component without creating an additional div node
+        - StrictMode - runs additional checks to find error in app
+        - Suspense - provide a fallback ui while componennt is loading. used for loaders
+        - Portal(createPortal) - for working out of mainDom. used for modals, tooltip, popup, etc
+        - React.forwardRef - to pass a ref from parent to child as prop
+        - React.memo - memoizes a component
+
+    * Hooks:
+        - useState
+        - useEffect
+        - useRef
+        - useTransition
+        - useId
+        - useCallback
+        - useMemo
+        - useContext
+
+    * Code optimization practices:
+        - code splitting - lazy-loading and dynamic imports
+        - memoization - use of React.memo, useCallback, useMemo
+        - composition - use of higher-order-components, container-components, reusable-components
+        - debouncing - use of cleanup function in useEffect
+        - lifting the state up - childs state managed in parent
+        - sub components - break a big component into multiple sub-components
+        - set error boundaries by providing a falback ui
+
+    * Concepts:   
+        * Reconcillation
+        * Rendering
+        * Virtual DOM
+        * Working of useState | useEffect | useRef
+        * Component Lifecycle
+        * JSX Feature
+        * Automatic batching
+
+
+
+`git ignore .env`
+`while initial npm install, first delete package-lock.json file then npm install`

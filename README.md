@@ -1,4 +1,4 @@
-## Best practices
+## ✅ Best practices
 
 1. dynamic import
 
@@ -21,7 +21,7 @@
 9. css module, styled components for styling
 
 - - - -
-## Important notes
+## 📝 Important notes
 
 1. First component render > after that side effect run && some further state changes being made > component re-renders > useeffect compares the value in dependency array, if they are different, side effect runs again.
 
@@ -37,14 +37,14 @@
 5. React don't render Boolean, null, undefined.
 
 - - - -
-## Project Setup Commands
+## ⚙️ Project Setup Commands
 
 *for vite setup - npx create vite@latest .*
 
 *for CRA setup - npx create-react-app app*
 
 - - - -
-## Cli Commands
+## ⌨️ Cli Commands
 
 ```
 1. cd dir_name - prodeed to directory
@@ -69,7 +69,7 @@
 ```
 
 - - - -
-## Package Installation
+## 📥 Package Installation
 
 *npm i @reduxjs/toolkit react-redux axios react-router-dom styled-components sass concurrently react-error-boundary moment lodash formik*
 
@@ -173,7 +173,7 @@ export default Demo
         * Automatic batching
 
 - - - -
-## Important Links
+## ![link emoji](./src/assets/emojis/link.png) Important Links
 
    + [MarkDown_CheatSheet](https://github.com/tchapi/markdown-cheatsheet/blob/master/README.md)
    + [React in depth](https://www.developerway.com/?filter=react)

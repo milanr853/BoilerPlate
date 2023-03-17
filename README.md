@@ -15,8 +15,8 @@
 7. use console.table() for objects to show in tabular form
 
 8. component optimization techniques like: 
-       * passing child component as props in parent component
-       * Moving the state down (separating component along with their states in chunks rather than one single big component)
+    * passing child component as props in parent component
+    * Moving the state down (separating component along with their states in chunks rather than one single big component)
 
 9. css module, styled components for styling
 
@@ -166,6 +166,10 @@ export default Demo
         * JSX Feature
         * Automatic batching
 
+## Important Links
+   [MarkDown_CheatSheet](https://github.com/tchapi/markdown-cheatsheet/blob/master/README.md)
+   [React in depth](https://www.developerway.com/?filter=react)
 
 
-`while initial npm install, first delete package-lock.json file then npm install`
+- - - -
+While initial npm install, first delete package-lock.json file then npm install[^1]

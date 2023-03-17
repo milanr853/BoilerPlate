@@ -66,6 +66,8 @@
 9. pwd - print working directory path
 
 10. code . + enter - to open vs code
+
+11. mv oldFileName newFileName - rename file or folder
 ```
 
 - - - -

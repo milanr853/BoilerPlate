@@ -1,4 +1,5 @@
 ## Best practices
+
 1. dynamic import
 
 2. useMemo, useCallback, React.memo() - memoization
@@ -21,6 +22,7 @@
 
 - - - -
 ## Important notes
+
 1. First component render > after that side effect run && some further state changes being made > component re-renders > useeffect compares the value in dependency array, if they are different, side effect runs again.
 
 2. Causes of re-render: 
@@ -36,12 +38,14 @@
 
 - - - -
 ## Project Setup Commands
+
 *for vite setup - npx create vite@latest .*
 
 *for CRA setup - npx create-react-app app*
 
 - - - -
 ## Cli Commands
+
 ```
 1. cd dir_name - prodeed to directory
 
@@ -66,10 +70,12 @@
 
 - - - -
 ## Package Installation
+
 *npm i @reduxjs/toolkit react-redux axios react-router-dom styled-components sass concurrently react-error-boundary moment lodash formik*
 
 - - - -
 ## Typescript
+
 ```Javascript
 import React, { ReactNode, useRef } from 'react'
 
@@ -115,6 +121,7 @@ export default Demo
 
 - - - -
 ## Must knows by a frontend(react) developer
+
 1. Npm:
    - Semantic versioning [ major.minor.patch ]
    - package.json [for the current version] vs package-lock.json [locks the installed version]
@@ -167,6 +174,7 @@ export default Demo
 
 - - - -
 ## Important Links
+
    + [MarkDown_CheatSheet](https://github.com/tchapi/markdown-cheatsheet/blob/master/README.md)
    + [React in depth](https://www.developerway.com/?filter=react)
 

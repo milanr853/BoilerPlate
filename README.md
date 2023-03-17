@@ -181,6 +181,7 @@ export default Demo
    + [MarkDown_CheatSheet](https://github.com/tchapi/markdown-cheatsheet/blob/master/README.md)
    + [React in depth](https://www.developerway.com/?filter=react)
    + [Bible of Javascript](https://javascript.info/)
+   + [7 sins of a developer](https://www.youtube.com/watch?v=q1qKv5TBaOA)
 
 - - - -
 While initial npm install, first delete package-lock.json file then npm install[^1]

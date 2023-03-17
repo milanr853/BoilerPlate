@@ -1,4 +1,4 @@
-## :fire: Best practices
+## :rocket: Best practices
 
 1. dynamic import
 
@@ -21,7 +21,7 @@
 9. css module, styled components for styling
 
 - - - -
-## 📝 Important notes
+## :memo: Important notes
 
 1. First component render > after that side effect run && some further state changes being made > component re-renders > useeffect compares the value in dependency array, if they are different, side effect runs again.
 
@@ -37,7 +37,7 @@
 5. React don't render Boolean, null, undefined.
 
 - - - -
-## ⚙️ Project Setup Commands
+## :building_construction: Project Setup Commands
 
 *for vite setup - npx create vite@latest .*
 
@@ -69,12 +69,12 @@
 ```
 
 - - - -
-## 📥 Package Installation
+## :arrow_down: Package Installation
 
 *npm i @reduxjs/toolkit react-redux axios react-router-dom styled-components sass concurrently react-error-boundary moment lodash formik*
 
 - - - -
-## Typescript
+## :alien: Typescript
 
 ```Javascript
 import React, { ReactNode, useRef } from 'react'
@@ -120,7 +120,7 @@ export default Demo
 ```
 
 - - - -
-## Must knows by a frontend(react) developer
+## :pushpin: Must knows by a frontend(react) developer
 
 1. Npm:
    - Semantic versioning [ major.minor.patch ]
@@ -173,7 +173,7 @@ export default Demo
         * Automatic batching
 
 - - - -
-## Important Links
+## :zap: Important Links
 
    + [MarkDown_CheatSheet](https://github.com/tchapi/markdown-cheatsheet/blob/master/README.md)
    + [React in depth](https://www.developerway.com/?filter=react)

@@ -151,6 +151,7 @@ export default Demo
         - useEffect
         - useRef
         - useTransition
+        - useDeferredValue
         - useId
         - useCallback
         - useMemo

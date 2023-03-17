@@ -109,3 +109,18 @@ const Demo = (props: DemoProps) => {
 
 export default Demo
 ```
+
+## Must knows by a frontend(react) developer
+
+1. Npm:
+   - Semantic versioning [ major.minor.patch ]
+   - package.json [for the current version] vs package-lock.json [locks the installed version]
+   - caret(^) [keep major fix and update minor & patch to latest - 2.x.x] vs tilde(~) [keep major & minor fix and update patch to latest - 2.13.x] symbol in package.json 
+   - when to use --legacy-peer-deps flag
+   - dependency vs dev-dependency vs peer-dependency
+   - npm script
+
+2. Git:
+    + [Command](https://www.youtube.com/watch?v=USjZcfj8yxE)
+    + [Github_Workflow](https://www.youtube.com/watch?v=nhNq2kIvi9s)
+    + [Git_Conventional_Commits](https://www.conventionalcommits.org/en/v1.0.0/)

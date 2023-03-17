@@ -1,4 +1,4 @@
-## ✅ Best practices
+## :fire: Best practices
 
 1. dynamic import
 
@@ -173,7 +173,7 @@ export default Demo
         * Automatic batching
 
 - - - -
-## ![link emoji](./src/assets/emojis/link.png) Important Links
+## Important Links
 
    + [MarkDown_CheatSheet](https://github.com/tchapi/markdown-cheatsheet/blob/master/README.md)
    + [React in depth](https://www.developerway.com/?filter=react)

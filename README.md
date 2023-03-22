@@ -22,6 +22,8 @@
 
 10. instead of using eventhandlers over an array of element for each element, use event delegation
 
+11. use of SVG, use of Symbol
+
 - - - -
 ## :memo: Important notes
 

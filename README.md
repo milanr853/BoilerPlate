@@ -20,6 +20,8 @@
 
 9. css module, styled components for styling
 
+10. instead of using eventhandlers over an array of element for each element, use event delegation
+
 - - - -
 ## :memo: Important notes
 
